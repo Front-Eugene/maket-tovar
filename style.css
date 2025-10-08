@@ -42,6 +42,10 @@ body {
   overflow-x: hidden;
 }
 
+.zakaz-mobile {
+    display: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -898,6 +902,10 @@ section {
 @media (max-width: 768px) {
   :root {
     --section-padding: 3rem;
+  }
+
+  .zakaz-mobile {
+    display: block;
   }
 
   .nav-menu {
