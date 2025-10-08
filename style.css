@@ -298,8 +298,7 @@ body {
   display: inline-block;
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
-  background: hsla(0, 84%, 60%, 0.2);
-  color: var(--destructive);
+  background: var(--primary);
   border-radius: 50px;
   font-weight: bold;
 }
